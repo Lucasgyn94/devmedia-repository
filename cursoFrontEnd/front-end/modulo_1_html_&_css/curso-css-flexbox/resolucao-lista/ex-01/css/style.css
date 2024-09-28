@@ -1,0 +1,19 @@
+.container {
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+  
+.container div {
+   width: 100px;
+   background-color: yellow;
+   border: 1px solid black;
+}
+  
+.primeiro-item{
+
+    flex-grow: 1;
+}

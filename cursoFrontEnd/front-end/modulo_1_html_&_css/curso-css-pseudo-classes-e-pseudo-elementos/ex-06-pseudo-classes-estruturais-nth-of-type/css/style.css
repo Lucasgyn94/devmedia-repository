@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Odd = Impar*/
+div:nth-of-type(odd) {
+    background-color: #eb6565;
+}
+/*Even igual par*/
+div:nth-of-type(even) {
+    background-color: #60c4ff;
+}
+
+/*
+div:nth-of-type(odd) {
+    background-color: #eb6565;
+}
+
+div:nth-of-type(even) {
+    background-color: #60c4ff;
+}
+
+*/

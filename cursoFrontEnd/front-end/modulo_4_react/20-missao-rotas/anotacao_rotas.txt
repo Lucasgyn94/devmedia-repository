@@ -1,0 +1,66 @@
+1º passo
+Instalar react-router-dom	
+
+$
+npm install --save react-router-dom
+
+2º passo
+Criar o componente de rotas (Rotas.js).
+
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
+
+const Rotas = () => {
+   <BrowserRouter>
+      <Routes>
+         <Route exact path='/' element={<PaginaInicial>} />
+         <Route path='/front-end' element={<PaginaFrontEnd>} />
+         <Route path='/back-end' element={<PaginaBackEnd>} />
+      <Routes/>
+   <BrowserRouter/>
+
+}
+
+export default Rotas;
+
+3ª passo
+Definir a nossa navegação com o Link que vai carregar o componente associado a url '/front-end'.
+Criaremos a pagina inicial (PaginaInicial.js)
+
+const PaginaInicial = () => {
+   <div>
+      <h1>Escolha seu caminho JS</h1>
+      <div>
+         <Link className="opcao-front-end" to="/front-end">Front-end</Link>
+         <Link className="opcao-back-end" to="/back-end" >Back-end</Link>
+      </div>
+   </div>
+
+};
+
+export default PaginaInicial;
+
+4ª Passo
+Criaremos o nosso botao
+Nele colocaremos o Link que vai carregar o componente assossiado a url '/';
+
+const BotaoVoltar = () => {
+   <div>
+      <Link className="botao-voltar" to="/">Voltar</Link>
+   </div>
+
+
+}
+
+
+==> BrowserRouter
+Componente que armazena as rotas.
+* Sincroniza a aplicação com a url.
+
+==> Routes
+Seleciona apenas um componente para exibir na tela baseado na url
+
+==> Route
+Componente que associa a rota ao componente.
+
+==> Link
+Componente que permite navegar para outra página (componente)

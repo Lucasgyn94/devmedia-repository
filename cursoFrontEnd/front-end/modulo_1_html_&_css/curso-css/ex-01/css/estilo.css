@@ -1,0 +1,20 @@
+h1 {
+    color: blue;
+    font-size: 48px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    /*deoxar fonte em negrito*/
+    font-weight: bold;
+    /*deixar fonte em italico*/
+    font-style: italic;
+    /*definir distancia entre paragrafos*/
+    line-height: 48px;
+}
+
+a {
+    text-decoration: overline;
+}

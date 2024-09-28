@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <form>
+                <p>Quais seus esportes favoritos? </p>
+                
+                <!--É colocado o [] ao final de cada name para permitir
+                que multiplos valores sejam enviados ao back-end. Sem ele
+                somente o último valor seria enviado-->
+                <input type="checkbox" name="esportes[]" value="futebol">
+                <label>Futebol</label>
+
+                <input type="checkbox" name="esportes[]" value="volei">
+                <label>Vôlei</label>
+
+                <input type="checkbox" name="esportes[]" value="basquete">
+                <label>Basquete</label>
+            </form>
+        </main>
+    </body>
+</html>
+

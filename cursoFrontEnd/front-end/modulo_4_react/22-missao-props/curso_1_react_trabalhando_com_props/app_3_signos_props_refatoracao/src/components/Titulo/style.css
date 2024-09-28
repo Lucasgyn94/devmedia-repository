@@ -1,0 +1,16 @@
+.box-titulo {
+    background-color: #4d538c;
+    align-items: center;
+    padding: 15px;
+    width: 100%;
+}
+
+.texto-box-titulo {
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+}
+

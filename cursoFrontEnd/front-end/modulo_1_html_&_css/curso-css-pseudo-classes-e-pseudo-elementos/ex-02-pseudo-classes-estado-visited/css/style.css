@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-color: rgb(228, 220, 220);
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.lista-container {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.lista-container a:visited {
+    color: red;
+}

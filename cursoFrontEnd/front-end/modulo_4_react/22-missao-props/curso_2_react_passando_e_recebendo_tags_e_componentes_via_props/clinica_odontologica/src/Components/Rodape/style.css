@@ -1,0 +1,14 @@
+.rodape {
+    background-color: #171d3f;
+    column-rule: #fff;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.5rem;
+    padding: 0.5rem;
+}
+
+p {
+    color: #fff;
+}

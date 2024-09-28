@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+.titulo-sessao{
+  color: #4e3c4c;
+  font-size: 30px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 2.4px;
+  padding:  0 15px;
+}
+

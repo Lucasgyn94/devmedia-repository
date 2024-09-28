@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: Montserrat;
+}
+
+.container {
+  padding: 40px 20px 20px;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+/*flex-wrap: wrap-reverse*/
+}
+
+.box1,
+.box2,
+.box3 {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border: 1px solid red;
+}

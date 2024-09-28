@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+p {
+    line-height: 28px;
+    margin: 0 0 25px 0;
+    color: white;
+}
+
+p:first-of-type {
+    background-color: #6363c5;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+p:last-of-type {
+    background-color: red;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+p:nth-of-type(2) {
+    background-color: blueviolet;
+    padding: 10px;
+    box-sizing: border-box;
+}
+

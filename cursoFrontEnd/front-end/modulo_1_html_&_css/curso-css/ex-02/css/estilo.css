@@ -1,0 +1,22 @@
+h1 {
+    font-size: 32px;
+    font-family: 'Verdana';
+    text-decoration: underline;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    font-family: 'Verdana';
+    font-weight: normal;
+    color: #3f4df3;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Verdana';
+}
+
+span {
+    font-weight: bold;
+}

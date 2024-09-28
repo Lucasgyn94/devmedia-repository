@@ -1,0 +1,43 @@
+.secao-produtos-flex-start {
+    height: 350px;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* a partir do inicio*/
+}
+
+.secao-produtos-flex-end {
+    height: 350px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* a partir do final*/
+
+}
+
+.secao-produtos-center {
+    height: 350px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centralizado*/
+
+}
+
+.secao-produtos-stretch {
+    height: 350px;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; /* stretch = elementos ocupam toda a altura disponivel no containerr*/
+
+}
+
+
+
+.card-produto {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid gray;
+}

@@ -1,0 +1,39 @@
+.pai {
+    height: 200px;
+    width: 200px;
+    border: 1px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.filha {
+    border: 1px solid blue;
+    height: calc(100% - 20px);
+    width: calc(100% - 20px);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.neta {
+    border: 1px solid violet;
+    height: calc(100% - 20px);
+    width: calc(100% - 20px);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vh-vw {
+
+    border: 1px solid darkred;
+    height: 15vh;
+    width: 8vw;
+    box-sizing: border-box;
+
+}

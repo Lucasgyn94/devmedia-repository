@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header, footer {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0ea6ed;
+    color: #fff;
+}
+
+.titulo-logo {
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+h1 {
+    margin: 25px 0 0px 0;
+    text-align: center;
+}
+
+div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 25px 0 0 0;
+}
+
+article {
+    text-align: center;
+}
+
+section {
+    max-width: 950px;
+    margin: 32px auto;
+}
+
+p {
+    line-height: 32px;
+}
+
+p::first-letter {
+    font-size: 24px;
+}
+
+p::first-line {
+    font-style: italic;
+}

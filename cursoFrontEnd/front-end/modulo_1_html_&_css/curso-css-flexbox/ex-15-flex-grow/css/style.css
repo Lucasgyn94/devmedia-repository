@@ -1,0 +1,24 @@
+.container {
+  background-color: green;
+}
+
+.card {
+  padding: 10px 20px;
+  background-color: grey;
+  border-radius: 10px;
+  flex-grow: 1;
+  
+}
+.card-um {
+  width: 100px;
+  height: 100px;
+  
+}
+.card-dois {
+  width: 200px;
+  height: 100px;
+}
+.card-tres {
+  width: 300px;
+  height: 100px;
+}

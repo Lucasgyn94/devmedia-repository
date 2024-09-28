@@ -1,0 +1,11 @@
+==> PROPS
+props são valores (parâmetros) que passamos para um componente.
+
+Ex: Passandro atributos para o componente itemLista
+
+<ItemLista 
+  signo="Aquário"
+  dataInicio="21/01"
+  dataFim="19/02"
+  imagem="assets/aquario.jpg"
+/>

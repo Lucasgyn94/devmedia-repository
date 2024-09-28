@@ -1,0 +1,7 @@
+==> 1º temos que instalar o readline-sync (sincronização de linha de leitura)
+
+npm install readline-sync
+
+
+==> 2º Após em nosso package.json, e adicionado o seguinte:
+"type" : "module"

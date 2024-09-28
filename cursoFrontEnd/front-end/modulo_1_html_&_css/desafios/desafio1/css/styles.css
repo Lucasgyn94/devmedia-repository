@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.ball {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    animation: move 5s linear infinite;
+}
+
+@keyframes move {
+    0% {
+        left: -50px;
+    }
+    100% {
+        left: calc(100% + 50px);
+    }
+}
+
+.ball:nth-child(2) {
+    background-color: green;
+    animation: move 6s linear infinite;
+}
+
+.ball:nth-child(3) {
+    background-color: blue;
+    animation: move 4s linear infinite;
+}

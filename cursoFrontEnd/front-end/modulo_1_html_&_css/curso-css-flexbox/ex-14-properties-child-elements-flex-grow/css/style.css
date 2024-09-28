@@ -1,0 +1,18 @@
+.topo {
+}
+.container {
+  padding: 80px 60px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.cards {
+  width: 250px;
+  flex-grow: 1;
+}
+.cards img {
+  height: 250px;
+  width: 100%;
+  border-radius: 10px;
+}

@@ -1,0 +1,30 @@
+.pai {
+    padding: 40px 20px 20px;
+    background-color: black;
+    display: flex;
+}
+
+.filho1,
+.filho2,
+.filho3 {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid gray;
+}
+/*
+.container {
+  padding: 40px 20px 20px;
+  background-color: black;
+  display: flex;
+}
+.box1,
+.box2,
+.box3 {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border: 1px solid gray;
+}
+
+*/

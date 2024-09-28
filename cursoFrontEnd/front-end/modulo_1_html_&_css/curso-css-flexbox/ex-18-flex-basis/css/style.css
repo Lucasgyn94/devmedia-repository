@@ -1,0 +1,22 @@
+.container {
+    background-color: aquamarine;
+    height: 40vh;
+    padding: 60px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+  
+.card {
+  height: 200px;
+  padding: 10px 20px;
+  background-color: gray;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 200px;
+    
+}
+
