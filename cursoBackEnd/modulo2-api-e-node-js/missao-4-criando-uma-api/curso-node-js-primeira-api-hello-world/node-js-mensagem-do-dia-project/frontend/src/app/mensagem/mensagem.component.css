@@ -1,0 +1,46 @@
+.mensagem-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+  background-color: #e6f7ff; /* Fundo suave e agradável */
+  text-align: center;
+}
+
+.mensagem {
+  background-color: #ffffff; /* Fundo branco para destaque */
+  border-radius: 8px; /* Bordas arredondadas para suavidade */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para profundidade */
+  padding: 20px;
+  max-width: 600px; /* Largura máxima para melhor leitura */
+  width: 100%; /* Ajusta a largura em telas menores */
+}
+
+h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.5;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .mensagem {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
