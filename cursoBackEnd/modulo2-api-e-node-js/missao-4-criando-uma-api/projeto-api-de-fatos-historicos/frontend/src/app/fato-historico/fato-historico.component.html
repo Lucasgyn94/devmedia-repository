@@ -1,0 +1,12 @@
+<div class="fato-historico">
+  <h1>Buscar Fato Histórico</h1>
+  <input [(ngModel)]="ano" placeholder="Digite um ano" />
+  <button (click)="buscarFato()">Buscar</button>
+  <div *ngIf="fato">
+    <h2>Fato do Ano {{ ano }}:</h2>
+    <p>{{ fato }}</p>
+  </div>
+  <div *ngIf="error" class="error">
+    <p>{{ error }}</p>
+  </div>
+</div>
